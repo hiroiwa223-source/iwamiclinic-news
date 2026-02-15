@@ -1,4 +1,5 @@
-/*
-  Content-Security-Policy: frame-ancestors 'self' https://ssc3.doctorqube.com https://iwami-clinic.com;
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer-when-downgrade
+/index.html
+  X-Frame-Options: ALLOWALL
+
+/news.html
+  X-Frame-Options: ALLOWALL
