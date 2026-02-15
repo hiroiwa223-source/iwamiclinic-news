@@ -1,0 +1,5 @@
+/index.html
+  X-Frame-Options: ALLOWALL
+
+/news.html
+  X-Frame-Options: ALLOWALL
