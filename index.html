@@ -1,18 +1,23 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>お知らせ</title>
+<meta charset="utf-8">
+<style>
+body{
+  margin:0;
+  font-family: sans-serif;
+  font-size:14px;
+  line-height:1.6;
+  color:#222;
+}
+.news-box{
+  padding:10px;
+}
+</style>
 </head>
 <body>
-  <div id="news-root">読み込み中...</div>
-
-  <script>
-    fetch("./news.html?v=" + Date.now(), { cache: "no-store" })
-      .then(r => r.text())
-      .then(html => { document.getElementById("news-root").innerHTML = html; })
-      .catch(() => { document.getElementById("news-root").textContent = "現在お知らせはありません"; });
-  </script>
+<div class="news-box">
+  <!-- ニュース内容 -->
+</div>
 </body>
 </html>
